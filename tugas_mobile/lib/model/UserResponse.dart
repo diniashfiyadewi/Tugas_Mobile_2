@@ -16,7 +16,7 @@ class UserResponse {
       return UserResponse(
         id: object['id'].toString(),
         email: object['email'], 
-        name: object ['name'] + " " + object['last_name'],
+        name: object ['first_name'] + " " + object['last_name'],
         avatar: object['avatar']);
     }
 
